@@ -7,6 +7,7 @@ import Item from "./Item";
 import "./Cart.css";
 
 import { calculateDiscount, calculateFinalPrice, calculateTotalPrice } from "./helpers/priceCalculator";
+import { formatPrice } from "./helpers/priceFormatter";
 
 const ShoppingCart = () => {
   const [cartOpen, setCartOpen] = useRecoilState(cartOpenState)
@@ -35,15 +36,15 @@ const ShoppingCart = () => {
             <div className="total">
               <div className="total__item">
                 <p>Subtotal</p>
-                <span>R$ {totalPrice.toFixed(2).replace(".", ",")}</span>
+                <span>R$ {formatPrice(totalPrice)}</span>
               </div>
               <div className="total__item">
                 <p>Desconto</p>
-                <span>R$ {discount.toFixed(2).replace(".", ",")}</span>
+                <span>R$ {formatPrice(discount)}</span>
               </div>
               <div className="total__item">
                 <p>Total</p>
-                <span>R$ {finalPrice.toFixed(2).replace(".", ",")}</span>
+                <span>R$ {formatPrice(finalPrice)}</span>
               </div>
             </div>
             <Button color="secondary" variant="contained" size="large" fullWidth >

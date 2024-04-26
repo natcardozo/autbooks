@@ -6,5 +6,6 @@ export interface IBook {
     synopsis: string,
     image: string,
     category: number,
+    quantity?: number,
     addToCart?: (book: IBook) => void
 }

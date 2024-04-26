@@ -1,5 +1,6 @@
 import { IBook } from "../../../interfaces/IBook";
 import InputNumber from "../../InputNumber";
+import { formatPrice } from "../helpers/priceFormatter";
 import styles from "./Item.module.scss";
 
 const Item = ({name, author, image, price}: IBook) => {
@@ -12,7 +13,7 @@ const Item = ({name, author, image, price}: IBook) => {
                     <span>{author}</span>
                 </div>
                 <InputNumber label="Quantidade" />
-                <p className={styles.item__price}>R$ {price.toFixed(2).replace(".", ",")}</p>
+                <p className={styles.item__price}>R$ {formatPrice(price)}</p>
             </div>
         </div>
     )
