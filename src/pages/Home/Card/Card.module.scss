@@ -1,0 +1,44 @@
+.card {
+    color: #222222;
+    padding: 8px;
+    position: relative;
+    width: 200px;
+
+    &__image {
+        border-radius: 4px;
+        height: 300px;
+        object-fit: cover;
+        width: 200px;
+    }
+    &__category {
+        background-color: rgba(256, 256, 256, .8);
+        border-radius: 4px;
+        font-size: 12px;
+        font-weight: 500;
+        position: absolute;
+        right: 12px;
+        text-align: center;
+        top: 12px;
+        width: 75px;
+        height: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &__info {
+        height: 80px;
+    }
+    &__name {
+        font-size: 16px;
+        font-weight: 700;
+    }
+    &__author {
+        font-size: 14px;
+    }
+    &__price {
+        color: #333652;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 27px;
+    }
+}

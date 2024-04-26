@@ -1,0 +1,38 @@
+.footer {
+    background-color: #333652;
+    height: 140px;
+
+    &__container {
+        width: 1440px;
+        margin: 0 auto;
+        padding: 10px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: #FAD02C;
+        height: 120px;
+    }
+
+    img {
+        height: 100px;
+    }
+
+    &__navigation {
+        line-height: 24px;
+    }
+
+    &__contact {
+        text-align: center;
+        line-height: 24px;
+
+        button {
+            background-color: transparent;
+            border: none;
+        }
+    }
+
+    &__address {
+        text-align: end;
+        line-height: 24px;
+    }
+}

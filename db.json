@@ -1,0 +1,139 @@
+{
+  "books": [
+    {
+      "id": "ahd45-deef64656-sddaa224s",
+      "name": "Harry Potter e a Pedra Filosofal",
+      "author": "J.K. Rowling",
+      "price": 40,
+      "synopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt, mauris quis suscipit vestibulum, massa ante faucibus risus, quis eleifend massa metus sed enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut consequat pharetra enim, sed scelerisque eros scelerisque a. Vestibulum sodales ligula a mauris facilisis interdum.",
+      "image": "/images/produto-1.png",
+      "category": 1
+    },
+    {
+      "id": "95a76cdf-b4dd-4380-8294-1bb593752c1b",
+      "name": "Harry Potter e a Câmara Secreta",
+      "author": "J.K. Rowling",
+      "category": 1,
+      "price": 40,
+      "image": "/images/produto-2.png",
+      "synopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt, mauris quis suscipit vestibulum, massa ante faucibus risus, quis eleifend massa metus sed enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut consequat pharetra enim, sed scelerisque eros scelerisque a. Vestibulum sodales ligula a mauris facilisis interdum."
+    },
+    {
+      "id": "42089bf7-9901-45a9-ad2d-cf42b13efbf7",
+      "name": "Harry Potter e o Prisioneiro de Azkaban",
+      "author": "J.K. Rowling",
+      "category": 1,
+      "price": 40,
+      "image": "/images/produto-3.png",
+      "synopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt, mauris quis suscipit vestibulum, massa ante faucibus risus, quis eleifend massa metus sed enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut consequat pharetra enim, sed scelerisque eros scelerisque a. Vestibulum sodales ligula a mauris facilisis interdum."
+    },
+    {
+      "id": "8777302e-7e64-4c06-88a6-3a1ec8c818dc",
+      "name": "Harry Potter e o Cálice de Fogo",
+      "author": "J.K. Rowling",
+      "category": 1,
+      "price": 40,
+      "image": "/images/produto-4.png",
+      "synopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt, mauris quis suscipit vestibulum, massa ante faucibus risus, quis eleifend massa metus sed enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut consequat pharetra enim, sed scelerisque eros scelerisque a. Vestibulum sodales ligula a mauris facilisis interdum."
+    },
+    {
+      "id": "ce67a4d8-c9a7-4a61-80f7-61f79d6d71d3",
+      "name": "Harry Potter e a Ordem da Fênix",
+      "author": "J.K. Rowling",
+      "category": 1,
+      "price": 40,
+      "image": "/images/produto-5.png",
+      "synopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt, mauris quis suscipit vestibulum, massa ante faucibus risus, quis eleifend massa metus sed enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut consequat pharetra enim, sed scelerisque eros scelerisque a. Vestibulum sodales ligula a mauris facilisis interdum."
+    },
+    {
+      "id": "7fecf084-073a-4022-917d-d964d932d95d",
+      "name": "Harry Potter e o Enigma do Príncipe",
+      "author": "J.K. Rowling",
+      "category": 1,
+      "price": 40,
+      "image": "/images/produto-6.png",
+      "synopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt, mauris quis suscipit vestibulum, massa ante faucibus risus, quis eleifend massa metus sed enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut consequat pharetra enim, sed scelerisque eros scelerisque a. Vestibulum sodales ligula a mauris facilisis interdum."
+    },
+    {
+      "id": "9c429d13-bdf5-4206-98e0-25c0efc4d9fb",
+      "name": "Harry Potter e as Relíquias da Morte",
+      "author": "J.K. Rowling",
+      "category": 1,
+      "price": 40,
+      "image": "/images/produto-7.png",
+      "synopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt, mauris quis suscipit vestibulum, massa ante faucibus risus, quis eleifend massa metus sed enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut consequat pharetra enim, sed scelerisque eros scelerisque a. Vestibulum sodales ligula a mauris facilisis interdum."
+    },
+    {
+      "id": "933af981-b94c-4eb3-ab68-7b107306b3b2",
+      "name": "The Hunger Games",
+      "author": "Suzanne Collins",
+      "category": 1,
+      "price": 40,
+      "image": "/images/produto-8.png",
+      "synopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt, mauris quis suscipit vestibulum, massa ante faucibus risus, quis eleifend massa metus sed enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut consequat pharetra enim, sed scelerisque eros scelerisque a. Vestibulum sodales ligula a mauris facilisis interdum."
+    },
+    {
+      "id": "79f2fba7-1739-4c11-bccb-129572384d6c",
+      "name": "Vermelho, Branco e Sangue Azul",
+      "author": "Casey McQuiston",
+      "category": 4,
+      "price": 40,
+      "image": "/images/produto-9.png",
+      "synopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt, mauris quis suscipit vestibulum, massa ante faucibus risus, quis eleifend massa metus sed enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut consequat pharetra enim, sed scelerisque eros scelerisque a. Vestibulum sodales ligula a mauris facilisis interdum."
+    },
+    {
+      "id": "45604849-6375-495f-ba95-56f8596f2e41",
+      "name": "Como Eu Era Antes De Você",
+      "author": "Jojo Moyes",
+      "category": 4,
+      "price": 40,
+      "image": "/images/produto-10.png",
+      "synopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt, mauris quis suscipit vestibulum, massa ante faucibus risus, quis eleifend massa metus sed enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut consequat pharetra enim, sed scelerisque eros scelerisque a. Vestibulum sodales ligula a mauris facilisis interdum."
+    },
+    {
+      "id": "2bdd3d35-47b0-4485-bb7b-5353318137ae",
+      "name": "Um Dia",
+      "author": "David Nicholls",
+      "category": 4,
+      "price": 40,
+      "image": "/images/produto-11.png",
+      "synopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt, mauris quis suscipit vestibulum, massa ante faucibus risus, quis eleifend massa metus sed enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut consequat pharetra enim, sed scelerisque eros scelerisque a. Vestibulum sodales ligula a mauris facilisis interdum."
+    },
+    {
+      "id": "8bef2bb6-a901-4f32-ad0f-deb2881a2919",
+      "name": "Gateway B2 - 2nd Edition - Student's Book",
+      "author": "David Spencer",
+      "category": 3,
+      "price": 40,
+      "image": "/images/produto-12.png",
+      "synopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt, mauris quis suscipit vestibulum, massa ante faucibus risus, quis eleifend massa metus sed enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut consequat pharetra enim, sed scelerisque eros scelerisque a. Vestibulum sodales ligula a mauris facilisis interdum."
+    },
+    {
+      "id": "07efdbbc-e7f2-4da4-af40-12a51775eeec",
+      "name": "Gateway B2+ - Student's Book",
+      "author": "David Spencer",
+      "category": 3,
+      "price": 40,
+      "image": "/images/produto-13.png",
+      "synopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt, mauris quis suscipit vestibulum, massa ante faucibus risus, quis eleifend massa metus sed enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut consequat pharetra enim, sed scelerisque eros scelerisque a. Vestibulum sodales ligula a mauris facilisis interdum."
+    },
+    {
+      "id": "f2ae293f-f214-4a4d-9f96-cc03ce99bc35",
+      "name": "Não Quero Ler!",
+      "author": "A.P. Hernandéz",
+      "category": 2,
+      "price": 40,
+      "image": "/images/produto-14.png",
+      "synopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt, mauris quis suscipit vestibulum, massa ante faucibus risus, quis eleifend massa metus sed enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut consequat pharetra enim, sed scelerisque eros scelerisque a. Vestibulum sodales ligula a mauris facilisis interdum."
+    },
+    {
+      "id": "5d77c881-f0b2-4143-8073-ed18197247ee",
+      "name": "O Menino Que Olhava Para o Céu",
+      "author": "Hugo Fabrício de Medeiros",
+      "category": 2,
+      "price": 40,
+      "image": "/images/produto-15.png",
+      "synopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt, mauris quis suscipit vestibulum, massa ante faucibus risus, quis eleifend massa metus sed enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut consequat pharetra enim, sed scelerisque eros scelerisque a. Vestibulum sodales ligula a mauris facilisis interdum."
+    }
+  ]
+}
