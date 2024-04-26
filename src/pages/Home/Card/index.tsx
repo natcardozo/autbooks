@@ -4,7 +4,9 @@ import useListOfCategories from "../../../state/hooks/useListOfCategories";
 import styles from "./Card.module.scss";
 import { useState } from "react";
 
-const Card = ({ image, name, author, price, category }: IBook) => {
+const Card = (book: IBook) => {
+  const { image, name, author, price, category, addToCart } = book;
+
   const [mouseHover, setMouseHover] = useState(false);
 
   const categories = useListOfCategories()
@@ -12,8 +14,8 @@ const Card = ({ image, name, author, price, category }: IBook) => {
   const categoryName = () => {
     const cat = categories.find(c => c.value === category)
     return cat?.label
-  } 
-
+  }
+  
   return (
     <Paper 
       onMouseEnter={() => setMouseHover(true)}
@@ -28,7 +30,9 @@ const Card = ({ image, name, author, price, category }: IBook) => {
         <span className={styles.card__author}>{author}</span>
         <p className={styles.card__price}>R$ {price.toFixed(2).replace(".", ",")}</p>
       </div>
-      <Button variant="contained" size="small" fullWidth>Adicionar ao carrinho</Button>
+      {addToCart ? (
+        <Button onClick={() => addToCart(book)} variant="contained" size="small" fullWidth>Adicionar ao carrinho</Button>
+      ) : <></>}
     </Paper>
   )
 }

@@ -1,12 +1,14 @@
 import { Button, Drawer } from "@mui/material";
-import { cartOpenState } from "../../state/atom";
-import { useRecoilState } from "recoil";
+import { cartOpenState, shoppingCartState } from "../../state/atom";
+import { useRecoilState, useRecoilValue } from "recoil";
 import CloseRoundedIcon from '@mui/icons-material/CloseRounded';
 import Item from "./Item";
 import "./Cart.css";
 
 const ShoppingCart = () => {
   const [cartOpen, setCartOpen] = useRecoilState(cartOpenState)
+
+  const cart = useRecoilValue(shoppingCartState);
 
   return (
     <Drawer
@@ -20,8 +22,7 @@ const ShoppingCart = () => {
           <h3>Meu carrinho</h3>
           <CloseRoundedIcon cursor="pointer" fontSize="large" onClick={() => setCartOpen(false)} />
         </div>
-        <Item />
-        <Item />
+        {cart.books.map(book => <Item key={book.id} />)}
         <div className="total">
           <div className="total__item">
             <p>Subtotal</p>

@@ -41,7 +41,7 @@ export const shoppingCartState = atom<ICart>({
       price: 40,
       image: "/images/produto-1.png",
       synopsis: "Synopsis",
-      category: 1,
+      category: 1
     }]
   }
 })
